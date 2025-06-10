@@ -22,7 +22,35 @@
       <p>Questa seconda sezione contiene un approfondimento con dettagli, esempi o spiegazioni più complesse.</p>
     </section>
   </main>
-
+  <H1>IMAGINI RESPONSIVE</H1>
+  <!--DECORATORE W-->
+  <img
+  alt="immagine con decoratore w"
+  srcset="img4.jpg 300w,
+  img4.jpg 600w,
+  img4.jpg 1200w,
+  img4.jpg 2000w,
+  "
+  sizes="70vmin"
+  >
+  <!--DECORATORE X-->
+  <img
+  alt="immagine con decoratore x"
+  src="img3.jpg"
+  srcset="img3.jpg 1.5x
+  img3.jpg 2x
+  img3.jpg 3x
+  img3.jpg 4x
+  img3.jpg 100x
+  "
+>
+<!--picture-->
+<picture>
+  <source media="(min-width: 600px)" srcset="img1.jpg">
+  <source media="(min-width: 465px)" srcset="img2.jpg">
+  <img src="img 5.jpeg" alt="img AI" style="width: auto;">
+  
+</picture>
   <footer>
     <p>© 2025 - Tutti i diritti riservati. Contatti: info@example.com</p>
   </footer>
