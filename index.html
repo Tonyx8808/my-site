@@ -1,97 +1,45 @@
-<!DOCTYPE html>
+<!doctype>
 <html>
+   <html lang="it">
 <head>
-  <title>Pagina di esempio</title>
   <meta charset="UTF-8">
+  <meta name="author" content="Antonio">
+  <meta name="description" content="esercizio di HTML">
+  <meta name="viewport" content="width=device-width">
+  <title>Pagina di esempio</title>
 </head>
 <body>
+  <h1>Ciao, mondo!</h1>
+  <p>Lorem Ipsum is simply dummy text of <br>the printing and typesetting industry.</p>
+  <p>Questo è un collegamento
+    <a href="https://www.google.com"><br>clicca qui</a>
+  </p>
+  <img src="img1.jpg" alt="imagine" width="500" height="800">
+  <img src="img2.jpg" alt="imagine2" width="500" height="800">
+  <img src="img3.jpg" alt="imagine3" width="500" height="800">
 
-  <aside>
-    <h2>Barra laterale</h2>
-    <p>Questo è un contenuto secondario, come un menu, una pubblicità o link utili.</p>
-  </aside>
-
-  <main>
-    <section>
-      <h2>Introduzione</h2>
-      <p>Questa è la prima sezione del contenuto principale. Parla dell’argomento della pagina e ne introduce i temi.</p>
-    </section>
-
-    <section>
-      <h2>Approfondimento</h2>
-      <p>Questa seconda sezione contiene un approfondimento con dettagli, esempi o spiegazioni più complesse.</p>
-    </section>
-  </main>
-  <!--IMMAGINE svG-->
-  <svg width="400" height="100">
-    <rect width="400" height="100"
-    style="fill:rgb(0,0,255); stroke-width 10; stroke:rgb(0,0,0)" />
-  </svg>
-  <!--CAMPO FORM-->
-  <H1>COMPILA IL FORM</H1>
-  <form>
-    <label for="NOME">NOME</label>
-    <div>
-    <input type="text" id="NOME" name="nome">
-    </div>
-    <label for="COGNOME">COGNOME</label>
-    <div>
-    <input type="text" id="COGNOME" NAME="cognome">
-    </div>
-    <label for="GENERE">GENERE</label>
-    <div>
-      <input type="radio" id="maschio" name="genere" value="maschio">
-      <label for="M">M</label>
-    </div>
-    <div>
-      <input type="radio" id="femmina" name="genere" value="femmina">
-      <label for="F">F</label>
-    </div>
-     <textarea id="descrizione" name="descrizione" rows="5" cols="30"></textarea>
-
-  </form>
-  <H1>IMAGINI RESPONSIVE</H1>
-  <!--DECORATORE W-->
-  <img
-  alt="immagine con decoratore w"
-  srcset="img4.jpg 300w,
-  img4.jpg 600w,
-  img4.jpg 1200w,
-  img4.jpg 2000w,
-  "
-  sizes="70vmin"
-  >
-  <!--DECORATORE X-->
-  <img
-  alt="immagine con decoratore x"
-  src="img3.jpg"
-  srcset="img3.jpg 1.5x
-  img3.jpg 2x
-  img3.jpg 3x
-  img3.jpg 4x
-  img3.jpg 100x
-  "
->
-<!--picture-->
-<picture>
-  <source media="(min-width: 600px)" srcset="img1.jpg">
-  <source media="(min-width: 465px)" srcset="img2.jpg">
-  <img src="img 5.jpeg" alt="img AI" style="width: auto;">
+  <!--lista non ordinata-->
+  <h2>Questa è una lista non ordinata</h2>
+  <ul>
+<li>pane</li>
+<li>latte</li>
+<li>biscotti</li>
+  </ul>
+  <!--lista ordinata-->
+  <h2>Questa è una lista ordinata</h2>
+  <ol>
+    <li>primo passo</li>
+    <li>Secondo passo</li>
+    <li> Terzo passo</li>
+  </ol>
+  <!--lista descrittiva-->
+  <h2>Questa è una lista descrittiva</h2>
+  <dl>
+  <dt>HTML</dt>
+  <dd>linguaggio per creare pagine web</dd>
+  </dl>
   
-</picture>
-<!--VIDEO YOUTUBEG-->
-<h2>QUESTO E' UN VIDEO DI YOUTUBE</h2>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/salY_Sm6mv4" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        allowfullscreen>
-    </iframe>
-  <footer>
-    <p>© 2025 - Tutti i diritti riservati. Contatti: info@example.com</p>
-  </footer>
-
 </body>
 </html>
-
+ 
+</html>
